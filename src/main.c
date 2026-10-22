@@ -1,7 +1,7 @@
 #include <stdio.h>
-#include "readfile.h"
 
-void lexer(char string[]);
+#include "includes/readfile.h"
+#include "includes/lexer.h"
 
 int main(void)
 {
@@ -10,9 +10,4 @@ int main(void)
     lexer(string);
 
     return 0;
-}
-
-void lexer(char string[])
-{
-    printf("%s\n", string);
 }
