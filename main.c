@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-// char *ptr;
-
 char *read_tkl_file(char name[], char action[]);
 
 int main(void)
