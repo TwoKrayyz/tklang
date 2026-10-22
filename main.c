@@ -1,12 +1,15 @@
 #include <stdio.h>
 
 char *read_tkl_file(char name[], char action[]);
+void lexer(void);
 
 int main(void)
 {
     char *string = read_tkl_file("root.tkl", "r");
 
     printf("%s\n", string);
+
+    lexer();
 
     return 0;
 }
@@ -31,4 +34,13 @@ char *read_tkl_file(char name[], char action[])
     {
         printf("tkl File Has Not Been Found!\n");
     }
+}
+
+void lexer(void)
+{
+    printf("Lexer Here!\n");
+
+    /*
+        I will add its features tomorrow !
+    */
 }
