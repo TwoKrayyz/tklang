@@ -1,6 +1,8 @@
 #include <stdio.h>
 
+#include "../includes/scanner.h"
+
 void lexer(char string[])
 {
-    printf("%s\n", string);
+    scanner(string);
 }
